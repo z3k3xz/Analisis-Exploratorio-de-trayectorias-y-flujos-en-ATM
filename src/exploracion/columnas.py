@@ -1,0 +1,20 @@
+import pandas as pd
+
+df = pd.read_parquet("../../datos/parquet/2022-01-01.parquet")
+print("=== PARQUET ===")
+print("Columnas:", list(df.columns))
+print("Tipos:")
+print(df.dtypes)
+print()
+print("Primeras 3 filas:")
+print(df.head(3))
+print()
+
+df_meta = pd.read_csv("../../datos/flight_list.csv")
+print("=== FLIGHT_LIST ===")
+print("Columnas:", list(df_meta.columns))
+print("Tipos:")
+print(df_meta.dtypes)
+print()
+print("Primeras 3 filas:")
+print(df_meta.head(3))

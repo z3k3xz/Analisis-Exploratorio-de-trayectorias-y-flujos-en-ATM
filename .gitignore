@@ -1,0 +1,27 @@
+# === DATOS (no se suben, se descargan del PRC Data Challenge) ===
+datos/parquet/
+datos/flight_list.csv
+
+# === RESULTADOS (se regeneran ejecutando el pipeline) ===
+resultados/
+
+# === PYTHON ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.png
